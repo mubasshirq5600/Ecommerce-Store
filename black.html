@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Gallery</title>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" >     
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="black.css">
+</head>
+<body> 
+  <header class="header">
+  <a href="#" class="logo">
+      <img src="logo.png" alt="My photo">
+  </a>
+  <nav class="navbar">
+      <a href="index.html">home</a>
+      <a href="#tea" >Tea</a>
+      <a href="#Rice">Rice</a>
+      <a href="#spices">Spices</a>
+      <a href="#Dry-Fruit">Dry-Fruit</a>
+      <a href="login.html">Account</a> 
+  </nav>
+ 
+  <div class="cart"> <a href="cart.html"  >   <img class=gimg src="symbols/icons8-grocery-store-50.png" width="30px" height="30px" alt=""></a>
+  </div>
+   </header>
+
+   <div class="features">
+    <div class="feature">
+        <img src="symbols/free.png" alt="" class="featureIcon">
+        <span class="featureTitle">FREE HOME DELIVERY</span>
+        <span class="featureDesc">Free worldwide shipping on all orders.</span>
+    </div>
+    <div class="feature">
+        <img class="featureIcon" src="symbols/30day.png" alt="">
+        <span class="featureTitle">30 DAYS RETURN</span>
+        <span class="featureDesc">No question return and easy refund in 14 days.</span>
+    </div>
+    <div class="feature">
+        <img class="featureIcon" src="symbols/gift4-.png" alt="">
+        <span class="featureTitle">GIFT CARDS</span>
+        <span class="featureDesc">Buy gift cards and use coupon codes easily.</span>
+    </div>
+    <div class="feature">
+        <img class="featureIcon" src="symbols/organic.png" <a href="#contact" >
+        <span class="featureTitle">100 % Natural PRoducts</span>
+        <span class="featureDesc">All Products Are chemical<br> free and made with natural products only..!!</span>
+    </div>
+</div>
+
+  <section id="tea">
+    <div>
+      <br>
+      <br>
+      <br>
+      <h1> Our &nbsp; TEA   &nbsp; Products</h1>
+    </div>
+  <div class="container">
+    <img class=mimg src="various/tea.jpg">
+    <br> 
+    <br>
+    <br>
+    <div class="gallery">
+
+      <div class="product-card">
+        <a href="alnoor250.html"><img src="tea/alnoor250.png" alt="Product 1"></a>
+        <h2>ALnoor 250gm tea </h2>
+        <div class="rating">⭐⭐⭐⭐☆</div>
+        <div class="quantityy">
+          <label for="quantityy-11">Quantity:</label>
+          <input type="number" id="quantityy-1" value="1" min="1">
+        </div>
+        <div class="price">100.00 RS</div>
+        <a href="cart.html">
+        <button class="buy-btn" onclick="buyNow(1)">Buy Now</button>
+        <button class="buy-btn">Add To Cart </button></a>
+      </div>
+
+      
+      <div class="product-card">
+        <a href="alnoor500gm.html"> <img src="tea/alnoor 500gm.png" alt="Product 2"></a>
+        <h2>ALnoor 500gm Tea</h2>
+        <div class="rating">⭐⭐⭐⭐⭐</div>
+        <div class="quantityy">
+          <label for="quantityy-2">Quantity:</label>
+          <input type="number" id="quantityy-2" value="1" min="1">
+        </div>
+        <div class="price">200.00 RS</div>
+        <a href="cart.html">
+        <button class="buy-btn" onclick="buyNow(2)">Buy Now</button>
+        <button class="buy-btn">Add To Cart </button></a>
+      </div>
+
+      <div class="product-card">
+        <a href="alnoor1kg.html">
+        <img src="tea/alnooe1kg.png" alt="Product 2"></a>
+        <h2>ALnoor 1KG Tea</h2>
+        <div class="rating">⭐⭐⭐⭐⭐</div>
+        <div class="quantityy">
+          <label for="quantityy-2">Quantity:</label>
+          <input type="number" id="quantityy-2" value="1" min="1">
+        </div>
+        <div class="price">400.00 RS</div>
+        <a href="cart.html">
+        <button class="buy-btn" onclick="buyNow(2)">Buy Now</button>
+        <button class="buy-btn">Add To Cart </button></a>
+      </div>
+
+      <div class="product-card">
+        <a href="gold500.html">
+        <img src="tea/gold tea 500g.png" alt="Product 2"></a>
+        <h2>ALnoor Gold Tea</h2>
+        <h2>500gm</h2>
+        <div class="rating">⭐⭐⭐⭐⭐</div>
+        <div class="quantityy">
+          <label for="quantityy-2">Quantity:</label>
+          <input type="number" id="quantityy-2" value="1" min="1">
+        </div>
+        <div class="price">300.00 RS</div>
+        <a href="cart.html">
+        <button class="buy-btn" onclick="buyNow(2)">Buy Now</button>
+        <button class="buy-btn">Add To Cart </button></a>
+      </div>
+
+      <div class="product-card">
+        <a href="gold1kg.html">
+        <img src="tea/gold tea.png" alt="Product 2"></a>
+        <h2>ALnoor Gold Tea</h2>
+        <h2>1KG</h2>
+        <div class="rating">⭐⭐⭐⭐⭐</div>
+        <div class="quantityy">
+          <label for="quantityy-2">Quantity:</label>
+          <input type="number" id="quantityy-2" value="1" min="1">
+        </div>
+        <div class="price">600.00 RS</div>
+        <a href="cart.html">
+        <button class="buy-btn" onclick="buyNow(2)">Buy Now</button>
+        <button class="buy-btn">Add To Cart </button></a>
+      </div>
+
+      <div class="product-card">
+        <a href="elaichi500.html">
+        <img src="tea/elaichi tea 250gm.png" alt="Product 2"></a>
+        <h2>ALnoor Elaichi Tea</h2>
+        <h2>250gm</h2>
+        <div class="rating">⭐⭐⭐⭐⭐</div>
+        <div class="quantityy">
+          <label for="quantityy-2">Quantity:</label>
+          <input type="number" id="quantityy-2" value="1" min="1">
+        </div>
+        <div class="price">90.00 RS</div>
+        <a href="cart.html">
+        <button class="buy-btn" onclick="buyNow(2)">Buy Now</button>
+        <button class="buy-btn">Add To Cart </button></a>
+      </div>
+
+      <div class="product-card">
+        <a href="elaichi1.html">
+        <img src="tea/Elaichi tea.png" alt="Product 2"></a>
+        <h2>ALnoor Elaichi Tea</h2>
+        <h2>500gm</h2>
+        <div class="rating">⭐⭐⭐⭐⭐</div>
+        <div class="quantityy">
+          <label for="quantityy-2">Quantity:</label>
+          <input type="number" id="quantityy-2" value="1" min="1">
+        </div>
+        <div class="price">180.00 RS</div>
+        <a href="cart.html">
+        <button class="buy-btn" onclick="buyNow(2)">Buy Now</button>
+        <button class="buy-btn">Add To Cart </button></a>
+      </div>
+
+      <div class="product-card">
+        <a href="lion.html">
+        <img src="tea/lion tea.png" alt="Product 2"></a>
+        <h2>ALnoor Lion Tea</h2>
+        <h2>1KG</h2>
+        <div class="rating">⭐⭐⭐⭐⭐</div>
+        <div class="quantityy">
+          <label for="quantityy-2">Quantity:</label>
+          <input type="number" id="quantityy-2" value="1" min="1">
+        </div>
+        <div class="price">800.00 RS</div>
+        <a href="cart.html">
+        <button class="buy-btn" onclick="buyNow(2)">Buy Now</button>
+        <button class="buy-btn">Add To Cart </button></a>
+      </div>
+      
+      <div class="product-card">
+        <a href="blackt.html">
+        <img src="tea/chocolate.png" alt="Product 2"></a>
+        <h2>ALnoor Black Tea</h2>
+        <h2>1KG</h2>
+        <div class="rating">⭐⭐⭐⭐⭐</div>
+        <div class="quantityy">
+          <label for="quantityy-2">Quantity:</label>
+          <input type="number" id="quantityy-2" value="1" min="1">
+        </div>
+        <div class="price">800.00 RS</div>
+        <a href="cart.html">
+        <button class="buy-btn" onclick="buyNow(2)">Buy Now</button>
+        <button class="buy-btn">Add To Cart </button></a>
+      </div>
+    </div>
+  </div>
+    </div></div>
+  </section>
+
+  <section id="Rice">
+    <div class="container">
+      <div>
+        <br>
+        <br>
+        <br>
+        <h1> Our &nbsp; RICE &nbsp; Products</h1>
+      </div>
+      <img class=mimg src="various/rices.jpg">
+      <br> 
+      <br>
+      <br>
+
+      <div class="gallery">
+  
+        <div class="product-card">
+          <a href="kolam.html">
+          <img class="rimg" src="rice/alnoor rice.png" alt="Product 1"></a>
+          <h2>ALnoor Kolam Rice</h2>
+          <h2>68 per KG / 30 KG BAG</h2>
+          <div class="rating">⭐⭐⭐⭐☆</div>
+          <div class="quantityy">
+            <label for="quantityy-11">Quantity:</label>
+            <input type="number" id="quantityy-1" value="1" min="1">
+          </div>
+          <div class="price">2040.00 RS</div>
+          <a href="cart.html">
+          <button class="buy-btn" onclick="buyNow(1)">Buy Now</button>
+          <button class="buy-btn">Add To Cart </button></a>
+        </div>
+  
+        
+        <div class="product-card">
+          <a href="dubar.html">
+          <img class="rimg" src="rice/dubar rice.png" alt="Product 2"></a>
+          <h2>ALnoor Dubar Rice</h2>
+          <h2>65 per KG / 30 KG BAG</h2>
+          <div class="rating">⭐⭐⭐⭐⭐</div>
+          <div class="quantityy">
+            <label for="quantityy-2">Quantity:</label>
+            <input type="number" id="quantityy-2" value="1" min="1">
+          </div>
+          <div class="price">1950.00 RS</div>
+          <a href="cart.html">
+          <button class="buy-btn" onclick="buyNow(2)">Buy Now</button>
+          <button class="buy-btn">Add To Cart </button></a>
+        </div>
+  
+        <div class="product-card">
+          <a href="special.html">
+          <img class="rimg" src="rice/Special Rice.png" alt="Product 2"></a>
+          <h2>ALnoor Special Biryani Rice</h2>
+          <h2>110 per KG / 30 KG BAG</h2>
+          <div class="rating">⭐⭐⭐⭐⭐</div>
+          <div class="quantityy">
+            <label for="quantityy-2">Quantity:</label>
+            <input type="number" id="quantityy-2" value="1" min="1">
+          </div>
+          <div class="price">3300.00 RS</div>
+          <a href="cart.html">
+          <button class="buy-btn" onclick="buyNow(2)">Buy Now</button>
+          <button class="buy-btn">Add To Cart </button></a>
+        </div>
+  
+        <div class="product-card">
+          <br>
+          <br>
+          <a href="raw.html">
+          <img src="rice/raw rice.png" alt="Product 2"></a>
+          <h2>ALnoor Raw Kolam</h2>
+          <h2>85 Per KG / 10 KG BAG</h2>
+          <div class="rating">⭐⭐⭐⭐⭐</div>
+          <div class="quantityy">
+            <label for="quantityy-2">Quantity:</label>
+            <input type="number" id="quantityy-2" value="1" min="1">
+          </div>
+          <div class="price">850.00 RS</div>
+          <a href="cart.html">
+          <button class="buy-btn" onclick="buyNow(2)">Buy Now</button>
+          <button class="buy-btn">Add To Cart </button></a>
+        </div>
+  
+        <div class="product-card">
+          <br>
+          <br>
+          <a href="steam.html">
+          <img src="rice/steam kolam.png" alt="Product 2"></a>
+          <h2>ALnoor Steam Kolam</h2>
+          <h2>58 per KG / 10 KG BAG</h2>
+          <div class="rating">⭐⭐⭐⭐⭐</div>
+          <div class="quantityy">
+            <label for="quantityy-2">Quantity:</label>
+            <input type="number" id="quantityy-2" value="1" min="1">
+          </div>
+          <div class="price">580.00 RS</div>
+          <a href="cart.html">
+          <button class="buy-btn" onclick="buyNow(2)">Buy Now</button>
+          <button class="buy-btn">Add To Cart </button></a>
+        </div>
+  
+        <div class="product-card">
+          <br>
+          <br>
+          <a href="sona.html">
+          <img src="rice/sona masoori.png" alt="Product 2"></a>
+          <h2>ALnoor Sona Masoori Rice</h2>
+          <h2>60 per KG / 10 KG BAG</h2>
+          <div class="rating">⭐⭐⭐⭐⭐</div>
+          <div class="quantityy">
+            <label for="quantityy-2">Quantity:</label>
+            <input type="number" id="quantityy-2" value="1" min="1">
+          </div>
+          <div class="price">600.00 RS</div>
+          <a href="cart.html">
+          <button class="buy-btn" onclick="buyNow(2)">Buy Now</button>
+          <button class="buy-btn">Add To Cart </button></a>
+        </div>
+
+      </div>
+    </div>
+      </div></div>
+    </section>
+
+    <section id="spices">
+      <div class="container">
+        <div>
+          <br>
+          <br>
+          <br>
+          <h1> Our &nbsp; SPICES  &nbsp; Products</h1>
+        </div>
+        <img class=mimg src="various/spices.jpg">
+        <br> 
+        <br>
+        <br>
+        <div class="gallery">
+          <div class="product-card">
+            <br>
+          <br>
+          <br>
+            <a href="chilli.html">
+            <img src="spices/chillil.png" alt="Product 1"></a>
+            <h2>ALnoor Red Chilli Powder </h2>
+            <h2>200gm</h2>
+            <div class="rating">⭐⭐⭐⭐☆</div>
+            <div class="quantityy">
+              <label for="quantityy-11">Quantity:</label>
+              <input type="number" id="quantityy-1" value="1" min="1">
+            </div>
+            <div class="price">60.00 RS</div>
+            <a href="cart.html">
+            <button class="buy-btn" onclick="buyNow(1)">Buy Now</button>
+            <button class="buy-btn">Add To Cart </button></a>
+          </div>
+    
+          
+          <div class="product-card">
+            <br>
+          <br>
+          <br>
+          <a href="dhaniya.html">
+            <img src="spices/dhaniya.png" alt="Product 2"></a>
+            <h2>ALnoor Dhaniya Powder</h2>
+            <h2>200gm</h2>
+            <div class="rating">⭐⭐⭐⭐⭐</div>
+            <div class="quantityy">
+              <label for="quantityy-2">Quantity:</label>
+              <input type="number" id="quantityy-2" value="1" min="1">
+            </div>
+            <div class="price">40.00 RS</div>
+            <a href="cart.html">
+            <button class="buy-btn" onclick="buyNow(2)">Buy Now</button>
+            <button class="buy-btn">Add To Cart </button></a>
+          </div>
+    
+          <div class="product-card">
+            <br>
+          <br>
+          <br>
+          <a href="haldi.html">
+            <img src="spices/haldi.png" alt="Product 2"></a>
+            <h2>ALnoor Haldi Powder</h2>
+            <h2>200gm</h2>
+            <div class="rating">⭐⭐⭐⭐⭐</div>
+            <div class="quantityy">
+              <label for="quantityy-2">Quantity:</label>
+              <input type="number" id="quantityy-2" value="1" min="1">
+            </div>
+            <div class="price">70.00 RS</div>
+            <a href="cart.html">
+            <button class="buy-btn" onclick="buyNow(2)">Buy Now</button>
+            <button class="buy-btn">Add To Cart </button></a>
+          </div>
+    
+          <div class="product-card">
+            <br>
+          <br>
+          <br>
+          <a href="white.html">
+            <img src="spices/white.png" alt="Product 2"></a>
+            <h2>ALnoor White Pepper</h2>
+            <h2>100gm</h2>
+            <div class="rating">⭐⭐⭐⭐⭐</div>
+            <div class="quantityy">
+              <label for="quantityy-2">Quantity:</label>
+              <input type="number" id="quantityy-2" value="1" min="1">
+            </div>
+            <div class="price">200.00 RS</div>
+            <a href="cart.html">
+            <button class="buy-btn" onclick="buyNow(2)">Buy Now</button>
+            <button class="buy-btn">Add To Cart </button></a>
+          </div>
+    
+          <div class="product-card">
+            <br>
+          <br>
+          <br>
+          <a href="elaichis.html">
+            <img src="spices/elaichi.png" alt="Product 2"></a>
+            <h2>ALnoor Elaichi </h2>
+            <h2>100gm</h2>
+            <div class="rating">⭐⭐⭐⭐⭐</div>
+            <div class="quantityy">
+              <label for="quantityy-2">Quantity:</label>
+              <input type="number" id="quantityy-2" value="1" min="1">
+            </div>
+            <div class="price">600.00 RS</div>
+            <a href="cart.html">
+            <button class="buy-btn" onclick="buyNow(2)">Buy Now</button>
+            <button class="buy-btn">Add To Cart </button></a>
+          </div>
+    
+          <div class="product-card">
+            <br>
+          <br>
+          <br>
+          <a href="long.html">
+            <img src="spices/long.png" alt="Product 2"></a>
+            <h2>ALnoor Long</h2>
+            <h2>100gm</h2>
+            <div class="rating">⭐⭐⭐⭐⭐</div>
+            <div class="quantityy">
+              <label for="quantityy-2">Quantity:</label>
+              <input type="number" id="quantityy-2" value="1" min="1">
+            </div>
+            <div class="price">250.00 RS</div>
+            <a href="cart.html">
+            <button class="buy-btn" onclick="buyNow(2)">Buy Now</button>
+            <button class="buy-btn">Add To Cart </button></a>
+          </div>
+                
+        </div>
+      </div>
+        </div></div>
+      </section>
+
+      <section id="Dry-Fruit">
+        <div class="container">
+          <div>
+            <br>
+            <br>
+            <br>
+            <h1> Our &nbsp; DRY-FRUIT &nbsp; Products</h1>
+          </div>
+          <img class=mimg src="various/dry fruit.jpg">
+          <br> 
+          <br>
+          <br>
+          <div class="gallery">
+      
+            <div class="product-card">
+              <br>
+            <br>
+            <br>
+            <a href="almonds.html">
+              <img src="dry/almonds.png" alt="Product 1"></a>
+              <h2>ALnoor Almonds </h2>
+              <h2>200gm</h2>
+              <div class="rating">⭐⭐⭐⭐☆</div>
+              <div class="quantityy">
+                <label for="quantityy-11">Quantity:</label>
+                <input type="number" id="quantityy-1" value="1" min="1">
+              </div>
+              <div class="price">300.00 RS</div>
+              <a href="cart.html">
+              <button class="buy-btn" onclick="buyNow(1)">Buy Now</button>
+              <button class="buy-btn">Add To Cart </button></a>
+            </div>
+      
+            
+            <div class="product-card">
+              <a href="cashews.html">
+              <img src="dry/cashews.png" alt="Product 2"></a>
+              <br>
+            <br>
+            <br>
+              <h2>ALnoor Cashews</h2>
+              <h2>200gm</h2>
+              <div class="rating">⭐⭐⭐⭐⭐</div>
+              <div class="quantityy">
+                <label for="quantityy-2">Quantity:</label>
+                <input type="number" id="quantityy-2" value="1" min="1">
+              </div>
+              <div class="price">340.00 RS</div>
+              <a href="cart.html">
+              <button class="buy-btn" onclick="buyNow(2)">Buy Now</button>
+              <button class="buy-btn">Add To Cart </button></a>
+            </div>
+      
+            <div class="product-card">
+              <a href="green.html">
+              <img src="dry/green raisins.png" alt="Product 2"></a>
+              <br>
+            <br>
+            <br>
+              <h2>ALnoor Green Raisins</h2>
+              <h2>200gm</h2>
+              <div class="rating">⭐⭐⭐⭐⭐</div>
+              <div class="quantityy">
+                <label for="quantityy-2">Quantity:</label>
+                <input type="number" id="quantityy-2" value="1" min="1">
+              </div>
+              <div class="price">400.00 RS</div>
+              <a href="cart.html">
+              <button class="buy-btn" onclick="buyNow(2)">Buy Now</button>
+              <button class="buy-btn">Add To Cart </button></a>
+            </div>
+      
+            <div class="product-card">
+              <a href="dry.html">
+              <img src="dry/mix.png" alt="Product 2"></a>
+              <br>
+            <br>
+            <br>
+              <h2>ALnoor ALL Dry-fruit Mix </h2>
+              <h2>500gm</h2>
+              <div class="rating">⭐⭐⭐⭐⭐</div>
+              <div class="quantityy">
+                <label for="quantityy-2">Quantity:</label>
+                <input type="number" id="quantityy-2" value="1" min="1">
+              </div>
+              <div class="price">1000.00 RS</div>
+              <a href="cart.html">
+              <button class="buy-btn" onclick="buyNow(2)">Buy Now</button>
+              <button class="buy-btn">Add To Cart </button></a>
+            </div>
+      
+            <div class="product-card">
+              <a href="pista.html">
+              <img src="dry/pista.png" alt="Product 2"></a>
+              <br>
+            <br>
+            <br>
+              <h2>ALnoor Pista</h2>
+              <h2>200KG</h2>
+              <div class="rating">⭐⭐⭐⭐⭐</div>
+              <div class="quantityy">
+                <label for="quantityy-2">Quantity:</label>
+                <input type="number" id="quantityy-2" value="1" min="1">
+              </div>
+              <div class="price">400.00 RS</div>
+              <a href="cart.html">
+              <button class="buy-btn" onclick="buyNow(2)">Buy Now</button>
+              <button class="buy-btn">Add To Cart </button></a>
+            </div>
+      
+            <div class="product-card">
+              <a href="raisins.html">
+              <img src="dry/black raisin.png" alt="Product 2"></a>
+              <br>
+            <br>
+            <br>
+              <h2>ALnoor Black Raisins </h2>
+              <h2>200gm</h2>
+              <div class="rating">⭐⭐⭐⭐⭐</div>
+              <div class="quantityy">
+                <label for="quantityy-2">Quantity:</label>
+                <input type="number" id="quantityy-2" value="1" min="1">
+              </div>
+              <div class="price">340.00 RS</div>
+              <a href="cart.html">
+              <button  class="buy-btn" onclick="buyNow(2)">Buy Now</button>
+              <button class="buy-btn">Add To Cart </button></a>
+            </div>
+            
+          </div>
+        </div>
+          </div></div>
+        </section>
+    
+    
+
+  
+
+  <section class="footer">
+    <div class="shar">
+        <a href="https://www.facebook.com/share/p/14yWQvC7tT/" class="fab fa-facebook-f"></a>
+        <a href="https://x.com/iam_mubasshir?t=QC867ptoweJ_7d4RFj_Yiw&s=09" class="fab fa-twitter"></a>
+        <a href="https://www.instagram.com/alnoor_tea_and_rice_center?igsh=YXg5aHAyMW8yZTBt" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+        <a href="https://pin.it/3vI2GmTEm" class="fab fa-pinterest"></a>
+    </div>
+    <div class="links">
+        <a href="index.html">Home</a>
+        <a href="#tea">TEA</a>
+        <a href="#Rice">RICE</a>
+        <a href="#spices">SPICES</a>
+        <a href="#dry-fruit">DRY-FRUIT</a>
+        <a href="login.html">ACCOUNT</a>
+    </div>
+
+    <div class="credit"> created by   <span> Mubashir & Faiz </span> | &nbsp;  &#169; &nbsp;ALL Rights Reserved </div>
+            <h2 class="ph2"> ALNOOR MART</h2> <br>
+            <p  class="ph"> Opposite Head Post Office, Juna Bazar Road, Aurangabad - 431001</p>
+            <p  class="ph">9422425256</p>
+  </section>
+  
+  <script >
+     function buyNow(productId) {
+    const quantity = document.getElementById(`quantity-${productId}`).value;
+    alert(`You have bought ${quantity} of Product ${productId}!`);
+  }
+  </script>
+</body>
+</html>
